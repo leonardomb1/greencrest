@@ -17,19 +17,5 @@ export default defineConfig({
     },
     server: {
         allowedHosts: ['greencrest.ngrok.dev', 'greencrest.com.br', 'localhost']
-    },
-    define: {
-        global: 'globalThis',
-    },
-    resolve: {
-        alias: {
-            crypto: 'crypto-browserify',
-            stream: 'stream-browserify',
-            util: 'util',
-            buffer: 'buffer'
-        }
-    },
-    optimizeDeps: {
-        include: ['crypto-browserify', 'stream-browserify', 'util', 'buffer']
     }
 });

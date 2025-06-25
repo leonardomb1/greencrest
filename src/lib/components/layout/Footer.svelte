@@ -1,5 +1,6 @@
 <script lang="ts">
   import { m } from "$lib/paraglide/messages"
+  import CompanyLogo from "../icons/CompanyLogo.svelte"
 
   let currentYear = $derived(new Date().getFullYear())
 </script>
@@ -9,12 +10,10 @@
     <div class="flex flex-col md:flex-row justify-between items-center">
       <div class="mb-6 md:mb-0">
         <a href="/">
-          <img
-            src="/logo.png"
-            alt="Green Crest"
+          <CompanyLogo
             width={180}
             height={90}
-            class="h-16 w-auto brightness-0 invert opacity-90"
+            className="h-16 w-auto brightness-0 invert opacity-90"
           />
         </a>
       </div>

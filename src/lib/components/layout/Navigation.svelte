@@ -3,6 +3,7 @@
   import { m } from "$lib/paraglide/messages"
   import Button from "../ui/Button.svelte"
   import SwitchLanguage from "../ui/SwitchLanguage.svelte"
+  import CompanyLogo from "../icons/CompanyLogo.svelte"
 
   let isMenuOpen = $state(false)
   let navRef: HTMLElement
@@ -35,12 +36,10 @@
     <div class="flex justify-between items-center h-16 md:h-20">
       <div class="flex items-center">
         <a href="/">
-          <img
-            src="/logo.png"
-            alt="Green Crest Logo"
-            width={140}
-            height={70}
-            class="h-10 md:h-12 w-auto"
+          <CompanyLogo
+            width={180}
+            height={90}
+            className="h-16 md:h-18 w-auto"
           />
         </a>
       </div>

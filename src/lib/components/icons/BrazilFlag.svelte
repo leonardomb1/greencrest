@@ -14,17 +14,18 @@
   fill="none"
   class={`rounded-sm ${className}`}
 >
-  <rect width="24" height="18" fill="#009739" />
-  <polygon points="12,2 20,9 12,16 4,9" fill="#FEDD00" />
-  <circle cx="12" cy="9" r="3.5" fill="#012169" />
-  <path
-    d="M9 7.5 C10 6.5, 14 6.5, 15 7.5 C14.5 8.5, 13.5 9, 12 9 C10.5 9, 9.5 8.5, 9 7.5 Z"
-    fill="white"
-  />
-  <path
-    d="M9.5 10 C10.5 11, 13.5 11, 14.5 10"
-    stroke="white"
-    stroke-width="0.3"
-    fill="none"
-  />
+  <rect width="24" height="18" fill="#009b3a" rx="1" />
+
+  <polygon points="12,3 19,9 12,15 5,9" fill="#fedf00" />
+
+  <circle cx="12" cy="9" r="3.2" fill="#002776" />
+
+  <ellipse cx="12" cy="8.5" rx="2.5" ry="0.8" fill="#ffffff" />
+
+  <circle cx="10.5" cy="7.5" r="0.3" fill="white" />
+  <circle cx="13.5" cy="7" r="0.25" fill="white" />
+  <circle cx="11" cy="10.5" r="0.2" fill="white" />
+  <circle cx="13.2" cy="10.8" r="0.2" fill="white" />
+  <circle cx="14.5" cy="8.5" r="0.15" fill="white" />
+  <circle cx="9.5" cy="8.8" r="0.15" fill="white" />
 </svg>

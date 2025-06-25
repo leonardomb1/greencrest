@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.well-known/
+Disallow: /favicon.ico
+Disallow: /*.json$
+Disallow: /*.xml$
+Sitemap: https://greencrest.com.br/sitemap.xml

@@ -39,7 +39,7 @@
           <CompanyLogo
             width={180}
             height={90}
-            className="h-16 md:h-18 w-auto"
+            className=" h-18 md:h-22 w-auto"
           />
         </a>
       </div>

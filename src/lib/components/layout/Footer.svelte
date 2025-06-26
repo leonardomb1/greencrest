@@ -13,7 +13,7 @@
           <CompanyLogo
             width={180}
             height={90}
-            className="h-16 w-auto brightness-0 invert opacity-90"
+            className="h-18 md:h-22 w-auto brightness-0 invert opacity-90"
           />
         </a>
       </div>

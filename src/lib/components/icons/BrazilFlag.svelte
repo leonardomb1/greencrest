@@ -9,6 +9,8 @@
 
 <svg
   width={size}
+  role="img"
+  aria-label="Brazil Flag"
   height={size}
   viewBox="0 0 24 18"
   fill="none"

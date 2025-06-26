@@ -11,6 +11,8 @@
 <svg
   {width}
   {height}
+  role="img"
+  aria-label="Green Crest Logo"
   zoomAndPan="magnify"
   viewBox="0 0 768 767.999994"
   preserveAspectRatio="xMidYMid meet"
